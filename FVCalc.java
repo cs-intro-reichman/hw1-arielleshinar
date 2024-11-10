@@ -3,13 +3,13 @@ public class FVCalc {
 	public static void main(String[] args){
 		//create the integers for the invested money 
 		//turn from string to int
-		int currentValue = Integer.parseInt(args[1]);
+		int currentValue = Integer.parseInt(args[0]);
 
 		//create an integer for the rate (assume non-negative)
-		double rate = Double.parseDouble(args[2]);
+		double rate = Double.parseDouble(args[1]);
 
 		//create integer for the number of years its in the bank
-		int n = Integer.parseInt(args[0]);
+		int n = Integer.parseInt(args[2]);
 
 		//creat integer for future ammount (double)
 		double futureValue;
@@ -33,8 +33,8 @@ public class FVCalc {
 
 		//print the value of future value as an int
 
-		System.out.println("after " + n + " years, " + currentValue + "$ " +
-			"saved at " + rate + "% will yield " + ((int)(futureValue)) + "$");
+		System.out.println("after " + n + " years, a $" + currentValue + 
+			"saved at " + rate + "% will yield $" + ((int)(futureValue)));
 
 
 		// rate is double 

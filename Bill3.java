@@ -16,9 +16,10 @@ public class Bill3 {
 		mybill = (double) Math.ceil(mybill);
 		
 		
+		
 		//prints the diners total 
-		System.out.println("dear " + name1 + ", " + name2 + 
-			" and " + name3 + ": pay " + mybill + " Shekels each.");
+		System.out.println("dear " + name3 + ", " + name2 + 
+			" and " + name1 + ": pay " + mybill + " Shekels each.");
 
 	      
 	}

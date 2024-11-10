@@ -7,7 +7,7 @@ public class NumWords {
 		// create a if condition that check if the num has tens and hundeds
 		//if not print only the ones and set a regular message for the rest
 		if (num < 10){
-			System.out.println("0 hundrens, 0 tens, and " + num + " ones.");
+			System.out.println("0 hundreds, 0 tens, and " + num + " ones.");
 			
 		} else {
 			//if the num is larger than 10 you need to check if it has hundreds and tens

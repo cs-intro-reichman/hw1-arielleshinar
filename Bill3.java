@@ -12,7 +12,7 @@ public class Bill3 {
 		int bill = Integer.parseInt(args[3]);
 		
 		//create a double to enter bill into and divide it by 3
-		double mybill = (double)(bill / 3);
+		double mybill = (double)(bill / 3.0);
 		mybill = (double) Math.ceil(mybill);
 		
 		

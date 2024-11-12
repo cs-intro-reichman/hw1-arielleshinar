@@ -17,7 +17,7 @@ public class TimeFormat {
 		//0 1 2 3 4 5 6 7 8 9 +  13 14 15 16 17 18 19 20 21
 		if ((hours < 10) || ((hours > 12) && (hours < 22) )){
 
-			System.out.print("0");
+			// System.out.print("0");
 			
 			// if the hour is bigger than 12 subtract 12 to get new hour type and print it
 			if (hours > 12){

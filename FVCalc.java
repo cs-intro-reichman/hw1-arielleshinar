@@ -33,8 +33,8 @@ public class FVCalc {
 
 		//print the value of future value as an int
 
-		System.out.println("after " + n + " years, a $" + currentValue + 
-			"saved at " + rate + "% will yield $" + ((int)(futureValue)));
+		System.out.println("After " + n + " years, a $" + currentValue + 
+			" saved at " + rate + "% will yield $" + ((int)(futureValue)));
 
 
 		// rate is double 

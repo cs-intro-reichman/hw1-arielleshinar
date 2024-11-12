@@ -19,7 +19,7 @@ public class Bill3 {
 		
 		//prints the diners total 
 		System.out.println("dear " + name3 + ", " + name2 + 
-			" and " + name1 + ": pay " + mybill + " Shekels each.");
+			", and " + name1 + ": pay " + mybill + " Shekels each.");
 
 	      
 	}
